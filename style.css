@@ -97,3 +97,7 @@ a:hover {
 .strong {
   font-weight: 400;
 }
+
+.bottom-space {
+  margin-bottom: 6px;
+}
