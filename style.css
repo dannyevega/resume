@@ -43,13 +43,13 @@ a:hover {
 }
 
 .name {
-  font-size: 35px;
+  font-size: 30px;
   font-family: 'BenchNine';  
 }
 
 .contact-info {
   font-family: 'Open Sans', sans-serif;
-  font-size: 14px;
+  font-size: 12px;
   font-weight: 300;
 }
 
@@ -68,25 +68,21 @@ a:hover {
   width: 100%;
   position: relative;
   font-family: 'Open Sans', sans-serif;
-  font-size: 13px;
+  font-size: 12px;
   font-weight: 300;
   list-style: none;  
 }
 
 .skills {
-  height: 78px;
+  height: 74px;
 }
 
 .experience {
-  height: 320px;  
+  height: 300px;  
 }
 
 .education {  
-  height: 138px; 
-}
-
-.projects {  
-  height: 105px;
+  height: 130px; 
 }
 
 .list {
@@ -94,7 +90,7 @@ a:hover {
 }
 
 .icon {
-  font-size: 1.2em;
+  font-size: 14px;
   color: #DC322F;
 }
 
