@@ -74,15 +74,15 @@ a:hover {
 }
 
 .skills {
-  height: 80px;
+  height: 78px;
 }
 
 .experience {
-  height: 328px;  
+  height: 312px;  
 }
 
 .education {  
-  height: 130px; 
+  height: 184px; 
 }
 
 .list {
@@ -104,4 +104,12 @@ a:hover {
 
 .bullet {
   margin-bottom: 3px;
+}
+
+.left {
+  float: left;
+}
+
+.right {
+  float: right;
 }
