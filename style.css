@@ -7,109 +7,115 @@
 }
 
 @media only screen and (min-device-width: 480px) {
-  body {
-    background-color:#FFF;
-  }
-  .page {
-          background-color:white;
-          width:7in;
-          height:9.5in; 
-          padding:.5in; 
-          margin:30px auto;
-          box-shadow:0 0 100px #222, 0 0 10px #ffd;
-     }
+    body {
+        background-color:#FFF;
+    }
+    .page {
+        background-color:white;
+        width:7in;
+        height:9.5in;
+        padding:.5in;
+        margin:30px auto;
+        box-shadow:0 0 100px #222, 0 0 10px #ffd;
+    }
 }
 
 @media print {
     .resume {
-        -webkit-box-sizing: border-box; 
-        -moz-box-sizing: border-box;    
-        box-sizing: border-box;         
+        -webkit-box-sizing: border-box;
+        -moz-box-sizing: border-box;
+        box-sizing: border-box;
         height:9.45in;
         margin-bottom:-5pt;
     }
+}
 
+ul {
+    list-style: none;
+    padding-left: 0;
+    margin: 0;
 }
 
 a {
-  color: inherit;
-  text-decoration: none;
+    color: inherit;
+    text-decoration: none;
 }
 
 a:hover {
-  color: #00A0C6; 
-  text-decoration: none; 
-  cursor: pointer;  
+    color: #00A0C6;
+    text-decoration: none;
+    cursor: pointer;
 }
 
 .name {
-  font-size: 30px;
-  font-family: 'BenchNine';  
+    font-size: 30px;
+    font-family: 'BenchNine';
 }
 
 .contact-info {
-  font-family: 'Open Sans', sans-serif;
-  font-size: 12px;
-  font-weight: 300;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 12px;
+    font-weight: 300;
+}
+
+.contact-info a,
+.contact-info span {
+    margin-right: 7px;
 }
 
 .container {
-  width: 100%;
+    width: 100%;
 }
 
 .projects h3,
 .education h3,
 .experience h3,
 .skills h3 {
-  color: #DC322F;
+    color: #DC322F;
+    margin-bottom: 5px;
 }
 
 .section-container {
-  width: 100%;
-  position: relative;
-  font-family: 'Open Sans', sans-serif;
-  font-size: 12px;
-  font-weight: 300;
-  list-style: none;  
+    width: 100%;
+    position: relative;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 12px;
+    font-weight: 300;
+    list-style: none;
 }
 
-.skills {
-  height: 78px;
+.skills,
+.experience,
+.education {
+    height: auto;
 }
 
-.experience {
-  height: 312px;  
+.education div,
+.experience div {
+    margin-bottom: 10px;
 }
 
-.education {  
-  height: 184px; 
-}
-
-.list {
-  list-style: none;
+.experience div > ul > li:first-child {
+    margin-bottom: 4px;
 }
 
 .icon {
-  font-size: 14px;
-  color: #DC322F;
+    font-size: 14px;
+    color: #DC322F;
 }
 
 .strong {
-  font-weight: 400;
-}
-
-.bottom-space {
-  margin-bottom: 6px;
+    font-weight: 400;
 }
 
 .bullet {
-  margin-bottom: 3px;
+    margin-bottom: 4px;
 }
 
 .left {
-  float: left;
+    float: left;
 }
 
 .right {
-  float: right;
+    float: right;
 }
